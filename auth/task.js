@@ -40,7 +40,7 @@ function welcome(id) {
 
 function logout(event) {
     welcome(0)
-    localStorage.clear()  
+    localStorage.removeItem('id')  
     document.getElementById('logout').removeEventListener('click', logout)
 }
 
