@@ -12,6 +12,6 @@ function getDataFromStorage() {
 
 function cleaner() {
     document.querySelector('#editor').value =''
-    localStorage.setItem('data', "")
+    localStorage.removeItem('data')
     
 }

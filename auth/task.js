@@ -45,7 +45,5 @@ function logout(event) {
 }
 
 function cleanForm() {
-    const form = document.getElementById('signin__form')
-    form.login.value =''
-    form.password.value =''
+    document.getElementById('signin__form').reset()
 }
